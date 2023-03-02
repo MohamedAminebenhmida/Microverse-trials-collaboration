@@ -1,147 +1,178 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<link rel="stylesheet" href="styles.css">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-<title>Technical Documentaion page</title>
-<!--------------------------------Side-navigation-bar------------------------------->
-<nav id="navbar">
-<header>JS Documentation</header>
-<a class="nav-link" href="#section1">section1</a>
-<a class="nav-link" href="#section2">section2</a>
-<a class="nav-link" href="#section3">section3</a>
-<a class="nav-link" href="#section4">section4</a>
-<a class="nav-link" href="#section5">section5</a>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
 
-<!--------------------------------Main-section------------------------------------->
-<main id="main-doc">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
-  <section class="main-section" id="section1">
-    <header>
-      <h1>section1</h1>
-    </header>
-    <p>
-      JavaScript is a cross-platform, object-oriented scripting language. It
-      is a small and lightweight language. Inside a host environment (for
-      example, a web browser), JavaScript can be connected to the objects of
-      its environment to provide programmatic control over them.
-    </p>
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Technical Documentaion page</title>
 
-    <p>
-      JavaScript contains a standard library of objects, such as Array, Date,
-      and Math, and a core set of language elements such as operators, control
-      structures, and statements. Core JavaScript can be extended for a
-      variety of purposes by supplementing it with additional objects; for
-      example:
-    </p>
-    <code>function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
-  </section>
+  <div class="container">
+    <div class="row">
+      <!--------------------------------Side-navigation-bar------------------------------->
+      <div class="col-md-4">
+        <nav id="navbar">
+          <header>JS Documentation</header>
+          <a class="nav-link" href="#section1">section1</a>
+          <a class="nav-link" href="#section2">section2</a>
+          <a class="nav-link" href="#section3">section3</a>
+          <a class="nav-link" href="#section4">section4</a>
+          <a class="nav-link" href="#section5">section5</a>
+        </nav>
 
-  <section class="main-section" id="section2">
-    <header>
-      <h1>section2</h1>
-    </header>
-    <p>This guide assumes you have the following basic background:</p>
-    <p>This guide assumes you have the following basic background:</p>
-    <code>function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-    </code>
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ul>
-  </section>
+      </div>
+      <!--------------------------------Main-section------------------------------------->
+      <div class="col-md-8">
+        <main id="main-doc">
 
-  <section class="main-section" id="section3">
-    <header>
-      <h1>section3</h1>
-    </header>
-    <p>
-      JavaScript and Java are similar in some ways but fundamentally different
-      in some others. The JavaScript language resembles Java but does not have
-      Java's static typing and strong type checking. JavaScript follows most
-      Java expression syntax, naming conventions and basic control-flow
-      constructs which was the reason why it was renamed from LiveScript to
-      JavaScript.
-    </p>
-    <p>
-      In contrast to Java's compile-time system of classes built by
-      declarations, JavaScript supports a runtime system based on a small
-      number of data types representing numeric, Boolean, and string values.
-      JavaScript has a prototype-based object model instead of the more common
-      class-based object model. The prototype-based model provides dynamic
-      inheritance; that is, what is inherited can vary for individual objects.
-      JavaScript also supports functions without any special declarative
-      requirements. Functions can be properties of objects, executing as
-      loosely typed methods.
-    </p>
-    <code>function greetMe(yourName) { alert("Hello " + yourName); }
-      greetMe("World");
-    </code>
-    <ul>
-      <li>item 4</li>
-      <li>item 5</li>
-    </ul>
-  </section>
+          <section class="main-section" id="section1">
+            <header>
+              <h1>section1</h1>
+            </header>
+            <p>
+              JavaScript is a cross-platform, object-oriented scripting language. It
+              is a small and lightweight language. Inside a host environment (for
+              example, a web browser), JavaScript can be connected to the objects of
+              its environment to provide programmatic control over them.
+            </p>
 
-  <section class="main-section" id="section4">
-    <header>
-      <h1>section4</h1>
-    </header>
-    <p>
-      JavaScript and Java are similar in some ways but fundamentally different
-      in some others. The JavaScript language resembles Java but does not have
-      Java's static typing and strong type checking. JavaScript follows most
-      Java expression syntax, naming conventions and basic control-flow
-      constructs which was the reason why it was renamed from LiveScript to
-      JavaScript.
-    </p>
-    <p>
-      In contrast to Java's compile-time system of classes built by
-      declarations, JavaScript supports a runtime system based on a small
-      number of data types representing numeric, Boolean, and string values.
-      JavaScript has a prototype-based object model instead of the more common
-      class-based object model. The prototype-based model provides dynamic
-      inheritance; that is, what is inherited can vary for individual objects.
-      JavaScript also supports functions without any special declarative
-      requirements. Functions can be properties of objects, executing as
-      loosely typed methods.
-    </p>
-    <code>function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
-  </section>
+            <p>
+              JavaScript contains a standard library of objects, such as Array, Date,
+              and Math, and a core set of language elements such as operators, control
+              structures, and statements. Core JavaScript can be extended for a
+              variety of purposes by supplementing it with additional objects; for
+              example:
+            </p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+              greetMe("World");
+            </code>
+          </section>
 
-  <section class="main-section" id="section5">
-    <header>
-      <h1>section5</h1>
-    </header>
-    <p>
-      JavaScript and Java are similar in some ways but fundamentally different
-      in some others. The JavaScript language resembles Java but does not have
-      Java's static typing and strong type checking. JavaScript follows most
-      Java expression syntax, naming conventions and basic control-flow
-      constructs which was the reason why it was renamed from LiveScript to
-      JavaScript.
-    </p>
-    <p>
-      In contrast to Java's compile-time system of classes built by
-      declarations, JavaScript supports a runtime system based on a small
-      number of data types representing numeric, Boolean, and string values.
-      JavaScript has a prototype-based object model instead of the more common
-      class-based object model. The prototype-based model provides dynamic
-      inheritance; that is, what is inherited can vary for individual objects.
-      JavaScript also supports functions without any special declarative
-      requirements. Functions can be properties of objects, executing as
-      loosely typed methods.
-    </p>
-    <code>function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
-  </section>
+          <section class="main-section" id="section2">
+            <header>
+              <h1>section2</h1>
+            </header>
+            <p>This guide assumes you have the following basic background:</p>
+            <p>This guide assumes you have the following basic background:</p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+              greetMe("World");
+      </code>
+            <ul>
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+            </ul>
+          </section>
 
-</main>
+          <section class="main-section" id="section3">
+            <header>
+              <h1>section3</h1>
+            </header>
+            <p>
+              JavaScript and Java are similar in some ways but fundamentally different
+              in some others. The JavaScript language resembles Java but does not have
+              Java's static typing and strong type checking. JavaScript follows most
+              Java expression syntax, naming conventions and basic control-flow
+              constructs which was the reason why it was renamed from LiveScript to
+              JavaScript.
+            </p>
+            <p>
+              In contrast to Java's compile-time system of classes built by
+              declarations, JavaScript supports a runtime system based on a small
+              number of data types representing numeric, Boolean, and string values.
+              JavaScript has a prototype-based object model instead of the more common
+              class-based object model. The prototype-based model provides dynamic
+              inheritance; that is, what is inherited can vary for individual objects.
+              JavaScript also supports functions without any special declarative
+              requirements. Functions can be properties of objects, executing as
+              loosely typed methods.
+            </p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");
+      </code>
+            <ul>
+              <li>item 4</li>
+              <li>item 5</li>
+            </ul>
+          </section>
+
+          <section class="main-section" id="section4">
+            <header>
+              <h1>section4</h1>
+            </header>
+            <p>
+              JavaScript and Java are similar in some ways but fundamentally different
+              in some others. The JavaScript language resembles Java but does not have
+              Java's static typing and strong type checking. JavaScript follows most
+              Java expression syntax, naming conventions and basic control-flow
+              constructs which was the reason why it was renamed from LiveScript to
+              JavaScript.
+            </p>
+            <p>
+              In contrast to Java's compile-time system of classes built by
+              declarations, JavaScript supports a runtime system based on a small
+              number of data types representing numeric, Boolean, and string values.
+              JavaScript has a prototype-based object model instead of the more common
+              class-based object model. The prototype-based model provides dynamic
+              inheritance; that is, what is inherited can vary for individual objects.
+              JavaScript also supports functions without any special declarative
+              requirements. Functions can be properties of objects, executing as
+              loosely typed methods.
+            </p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+              greetMe("World");
+            </code>
+          </section>
+
+          <section class="main-section" id="section5">
+            <header>
+              <h1>section5</h1>
+            </header>
+            <p>
+              JavaScript and Java are similar in some ways but fundamentally different
+              in some others. The JavaScript language resembles Java but does not have
+              Java's static typing and strong type checking. JavaScript follows most
+              Java expression syntax, naming conventions and basic control-flow
+              constructs which was the reason why it was renamed from LiveScript to
+              JavaScript.
+            </p>
+            <p>
+              In contrast to Java's compile-time system of classes built by
+              declarations, JavaScript supports a runtime system based on a small
+              number of data types representing numeric, Boolean, and string values.
+              JavaScript has a prototype-based object model instead of the more common
+              class-based object model. The prototype-based model provides dynamic
+              inheritance; that is, what is inherited can vary for individual objects.
+              JavaScript also supports functions without any special declarative
+              requirements. Functions can be properties of objects, executing as
+              loosely typed methods.
+            </p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+              greetMe("World");
+            </code>
+          </section>
+
+        </main>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
